@@ -28,12 +28,12 @@ function giveAntiAIResources(text) {
 
 var aiFact, aiSource,stopAIText;
 var aiFactNum;
-var max = 2;
-var min = 0;
-aiFactNum = Math.round(Math.random() * (max - min) + min);
 
 (async () => {
     const content = await getResourceContent("./antiaifacts.json");
+    var max = content["facts"].length;
+	var min = 0;
+	aiFactNum = Math.round(Math.random() * (max - min) + min);
    	aiFact = content["facts"][aiFactNum]["text"];
    	aiSource = content["facts"][aiFactNum]["source"];
     stopAIText = "'" +aiFact + "' \n" + aiSource;
