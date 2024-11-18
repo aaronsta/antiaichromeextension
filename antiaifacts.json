@@ -1,0 +1,20 @@
+{
+  "fileName": "Anti-AI Facts",
+  "facts": [
+    {
+      "text": "AI is far more energy-intensive on data centers than typical cloud-based applications. According to Goldman Sachs, a ChatGPT query needs nearly 10 times as much electricity to process as a Google search, and data center power demand will grow 160% by 2030.",
+      "source": "https://www.theguardian.com/technology/2024/sep/15/data-center-gas-emissions-tech",
+      "active":true
+    },
+    {
+      "text": "Generative AI is an environmental disaster that’s accelerating natural destruction and the climate crisis at the very moment alarms are sounding about the precious little time that remains to turn things around. Tech companies once pitched themselves as the purveyors of a more ethical form of capitalism. They wanted us to believe they would balance corporate profit with environmental sustainability, such that the digital future was marketed as inherently more sustainable than the analog past. It’s clearer than ever that was a lie.",
+      "source": "https://disconnect.blog/generative-ai-is-a-climate-disaster/",
+      "active":true
+    },
+    {
+      "text": "The latest Big Tech sustainability reports show double-digit increases in water consumption by Google (17 per cent), Microsoft (22.5 per cent) and Meta (17 per cent). 'The expansion of AI products and services is leading to an increase in data centre workloads and the associated water footprint required to cool them efficiently,' Google said.",
+      "source": "https://www.thetimes.com/uk/technology-uk/article/thirsty-chatgpt-uses-four-times-more-water-than-previously-thought-bc0pqswdr",
+      "active":true
+    }
+  ]
+}
