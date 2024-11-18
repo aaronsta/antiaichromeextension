@@ -8,7 +8,7 @@
     "default_icon": "hello_extensions.png"
   },
 	"content_scripts":[{
-    "matches":["https://umgpt.umich.edu/","https://genai.umich.edu/","https://its.umich.edu/computing/ai/maizey-in-depth","https://its.umich.edu/computing/ai","https://umgpt.umich.edu/maizey/shared"],
+    "matches":["https://umgpt.umich.edu/","https://genai.umich.edu/","https://its.umich.edu/computing/ai","https://umgpt.umich.edu/maizey/shared"],
     "js":["antiAIpopip.js"]
 	}],
 	 "web_accessible_resources": [
